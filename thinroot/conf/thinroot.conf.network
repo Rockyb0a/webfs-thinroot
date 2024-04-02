@@ -1,0 +1,9 @@
+#USE_XRANDR=true #not needed packagae already in BR2
+XRANDR_OPTIONS="dualscreen"
+
+# No need to SESSION_0_XSTARTUP=qutselect since it defaults to it. 
+SESSION_0_QUTSELECT_SLIST=qutselect.slist
+SESSION_0_QUTSELECT_MOTD=qutselect.motd
+
+#SESSION_0_XSTARTUP=remmina
+
